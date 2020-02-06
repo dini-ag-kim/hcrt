@@ -68,7 +68,7 @@
 <index> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Nachschlagewerk"@de ;
-          skos:scopeNote "z.B. Glossar, Enzyklopädie, Lexikon"@de .
+          skos:scopeNote "zum Beispiel Glossar, Enzyklopädie, Lexikon"@de .
 
 <lesson_plan> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -90,7 +90,7 @@
 <script> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Skript"@de ;
-          skos:scopeNote "z.B. Vorlesungsskript"@de .
+          skos:scopeNote "zum Beispiel Vorlesungsskript"@de .
 
 <simulation> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -103,7 +103,7 @@
 <text> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Textdokument"@de ;
-          skos:scopeNote "z.B. Artikel, Aufsatz, Abhandlung"@de .
+          skos:scopeNote "zum Beispiel Artikel, Aufsatz, Abhandlung"@de .
 
 <video> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -116,7 +116,7 @@
 <worksheet> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Arbeitsmaterial"@de ;
-          skos:scopeNote "z.B. Arbeitsblatt"@de .
+          skos:scopeNote "zum Beispiel Arbeitsblatt"@de .
 
 <other> a skos:Concept;
           skos:topConceptOf <scheme> ;
