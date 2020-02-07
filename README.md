@@ -1,2 +1,2 @@
 # hccm
-Hochschulcampus Custom Content Model (Wertelliste für Typen von Lernressourcen)
+Hochschulcampus Ressourcentypen (Werteliste für Typen von Lernressourcen)
