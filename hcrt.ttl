@@ -5,7 +5,7 @@
 
 
 <scheme> a skos:ConceptScheme;
-        dct:title "Hochschulcampus Ressourcentypen"@en ;
+        dct:title "Hochschulcampus Ressourcentypen"@de, "Higher Education Resource Types"@en ;
         dct:description "Eine Wertelliste für Typen von Lernressourcen (Learning Resource Type), entstanden im Kontext des Metadatenschemas \"LOM for Higher Education OER Repositories\" (https://w3id.org/dini-ag-kim/hs-oer-lom-profil/latest/)."@de ;
         dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
         dct:issued "2020-02-07" ;
@@ -19,105 +19,105 @@
 
 <application> a skos:Concept;
            skos:topConceptOf <scheme> ;
-           skos:prefLabel "Softwareanwendung"@de .
+           skos:prefLabel "Softwareanwendung"@de, "Software Application"@en .
 
 <assessment> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Lernkontrolle"@de ;
+          skos:prefLabel "Lernkontrolle"@de, "Assessment"@en ;
           skos:scopeNote "unter anderem (Selbst-)Tests"@de .
 
 <audio> a skos:Concept;
            skos:topConceptOf <scheme> ;
-           skos:prefLabel "Tonaufnahme"@de .
+           skos:prefLabel "Tonaufnahme"@de, "Audio Recording"@en .
 
 <case_study> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Fallstudie"@de .
+          skos:prefLabel "Fallstudie"@de, "Case Study"@en .
 
 <course> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Lernkurs"@de .
+          skos:prefLabel "Lernkurs"@de, "Course"@en .
 
 <data> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Daten"@de ;
-          skos:scopeNote "unter anderem Roh- oder Beispieldaten"@de .
+          skos:prefLabel "Daten"@de, "Data"@en ;
+          skos:scopeNote "unter anderem Roh- oder Beispieldaten"@de, "amongst others raw and example data"@en .
 
 <diagram> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Diagramm"@de ;
+          skos:prefLabel "Diagramm"@de, "Diagram"@en ;
           skos:altLabel "Grafik"@de .
 
 <drill_and_practice> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Übung"@de .
+          skos:prefLabel "Übung"@de, "Drill and Practice"@en .
 
 <educational_game> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Lernspiel"@de .
+          skos:prefLabel "Lernspiel"@de, "Game"@en .
 
 <experiment> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Experiment"@de .
+          skos:prefLabel "Experiment"@de, "Experiment"@en .
 
 <image> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Abbildung"@de ;
-          skos:scopeNote "Fotos und sonstige Bilder"@de .
+          skos:prefLabel "Abbildung"@de, "Image"@en ;
+          skos:scopeNote "Fotos und sonstige Bilder"@de, "photos and other images"@en .
 
 <index> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Nachschlagewerk"@de ;
-          skos:scopeNote "zum Beispiel Glossar, Enzyklopädie, Lexikon"@de .
+          skos:prefLabel "Nachschlagewerk"@de, "Reference Work"@en ;
+          skos:scopeNote "zum Beispiel Glossar, Enzyklopädie, Lexikon"@de, "e.g. glossary, encyclopedia, dictionary"@en .
 
 <lesson_plan> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Unterrichtsplanung"@de .
+          skos:prefLabel "Unterrichtsplanung"@de, "Lesson Plan"@en .
 
 <map> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Karte"@de .
+          skos:prefLabel "Karte"@de, "Map"@en .
 
 <portal> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Webportal"@de .
+          skos:prefLabel "Webportal"@de, "Web Portal"@en .
 
 <questionnaire> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Fragebogen"@de ;
-          skos:scopeNote "auch Rechercheaufträge"@de .
+          skos:prefLabel "Fragebogen"@de, "Questionnaire"@en ;
+          skos:scopeNote "auch Rechercheaufträge"@de, "also research assignments"@en .
 
 <script> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Skript"@de ;
-          skos:scopeNote "zum Beispiel Vorlesungsskript"@de .
+          skos:prefLabel "Skript"@de, "Script"@en ;
+          skos:scopeNote "zum Beispiel Vorlesungsskript"@de, "for example lecture notes"@en .
 
 <simulation> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Simulation"@de .
+          skos:prefLabel "Simulation"@de, "Simulation"@en .
 
 <slide> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Präsentationsfolien"@de .
+          skos:prefLabel "Präsentationsfolien"@de, "Presentation"@en .
 
 <text> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Textdokument"@de ;
-          skos:scopeNote "zum Beispiel Artikel, Aufsatz, Abhandlung"@de .
+          skos:prefLabel "Textdokument"@de, "Text"@en ;
+          skos:scopeNote "zum Beispiel Artikel, Aufsatz, Abhandlung"@de, "for example article, essay"@en .
 
 <video> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Video"@de .
+          skos:prefLabel "Video"@de, "Video"@en .
 
 <web_page> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Webseite"@de .
+          skos:prefLabel "Webseite"@de, "Web Page"@en .
 
 <worksheet> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Arbeitsmaterial"@de ;
+          skos:prefLabel "Arbeitsmaterial"@de, "Worksheet"@en ;
           skos:scopeNote "zum Beispiel Arbeitsblatt"@de .
 
 <other> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Sonstiges"@de .
+          skos:prefLabel "Sonstiges"@de, "Other"@en .
