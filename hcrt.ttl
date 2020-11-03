@@ -6,7 +6,7 @@
 
 <scheme> a skos:ConceptScheme;
         dct:title "Hochschulcampus Ressourcentypen"@de, "Higher Education Resource Types"@en ;
-        dct:description "Eine Wertelliste für Typen von Lernressourcen (Learning Resource Type), entstanden im Kontext des Metadatenschemas \"LOM for Higher Education OER Repositories\" (https://w3id.org/dini-ag-kim/hs-oer-lom-profil/latest/)."@de ;
+        dct:description "Eine Wertelliste für Typen von Lernressourcen (Learning Resource Type), entstanden im Kontext des Metadatenschemas \"LOM for Higher Education OER Repositories\" (https://w3id.org/dini-ag-kim/hs-oer-lom-profil/latest/)."@de, "a value list for learning resources types, developed in the context of a metadata schema LOM for Higher Education OER Repositories\" (https://w3id.org/dini-ag-kim/hs-oer-lom-profil/latest/)."@en ;
         dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
         dct:issued "2020-02-07" ;
         vann:preferredNamespaceUri "https://w3id.org/kim/hcrt/" ;
@@ -25,7 +25,7 @@
 <assessment> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Lernkontrolle"@de, "Assessment"@en ;
-          skos:scopeNote "unter anderem (Selbst-)Tests"@de .
+          skos:scopeNote "unter anderem (Selbst-)Tests"@de, "amongst others (self) tests"@en .
 
 <audio> a skos:Concept;
            skos:topConceptOf <scheme> ;
@@ -47,7 +47,7 @@
 <diagram> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Diagramm"@de, "Diagram"@en ;
-          skos:altLabel "Grafik"@de .
+          skos:altLabel "Grafik"@de, "chart"@en, "graph"@en .
 
 <drill_and_practice> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -118,8 +118,8 @@
 
 <worksheet> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Arbeitsmaterial"@de, "Worksheet"@en ;
-          skos:scopeNote "zum Beispiel Arbeitsblatt"@de .
+          skos:prefLabel "Arbeitsmaterial"@de, "work material"@en ;
+          skos:scopeNote "zum Beispiel Arbeitsblatt"@de , "for example work sheet"@en.
 
 <other> a skos:Concept;
           skos:topConceptOf <scheme> ;
