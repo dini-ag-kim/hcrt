@@ -19,7 +19,6 @@
 
 <application> a skos:Concept;
            skos:topConceptOf <scheme> ;
-           skos:related <data> ;
            skos:prefLabel "Softwareanwendung"@de, "Software Application"@en .
 
 <assessment> a skos:Concept;
@@ -103,7 +102,6 @@
 
 <text> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:related <worksheet>, <slide>, <script>, <questionnaire>, <lesson_plan>, <assessment> ;
           skos:prefLabel "Textdokument"@de, "Text"@en ;
           skos:scopeNote "zum Beispiel Artikel, Aufsatz, Abhandlung"@de, "for example article, essay"@en .
 
@@ -113,7 +111,6 @@
 
 <web_page> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:related <portal> ;
           skos:prefLabel "Webseite"@de, "Web Page"@en .
 
 <worksheet> a skos:Concept;
