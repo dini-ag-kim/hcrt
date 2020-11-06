@@ -62,7 +62,7 @@
 
 <image> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Bild"@de, "Image"@en ;
+          skos:prefLabel "Abbildung"@de, "Image"@en ;
           skos:scopeNote "Fotos und sonstige Bilder"@de, "photos and other images"@en .
 
 <index> a skos:Concept;
@@ -85,7 +85,7 @@
 <questionnaire> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Fragebogen"@de, "Questionnaire"@en ;
-          skos:scopeNote "auch Rechercheaufträge"@de, "also research assignments"@en .
+          skos:scopeNote "auch Rechercheauftrag und WebQuest"@de, "also research assignment and WebQuest"@en .
 
 <script> a skos:Concept;
           skos:topConceptOf <scheme> ;
