@@ -36,7 +36,7 @@
 
 <course> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Lernkurs"@de, "Course"@en .
+          skos:prefLabel "Kurs"@de, "Course"@en .
 
 <data> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -80,12 +80,12 @@
 
 <portal> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Webportal"@de, "Web Portal"@en .
+          skos:prefLabel "Portal"@de, "Web Portal"@en .
 
 <questionnaire> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Fragebogen"@de, "Questionnaire"@en ;
-          skos:scopeNote "auch Rechercheaufträge"@de, "also research assignments"@en .
+          skos:scopeNote "auch Rechercheauftrag und WebQuest"@de, "also research assignment and WebQuest"@en .
 
 <script> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -98,12 +98,16 @@
 
 <slide> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Präsentationsfolien"@de, "Presentation"@en .
+          skos:prefLabel "Präsentation"@de, "Presentation"@en .
 
 <text> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Textdokument"@de, "Text"@en ;
           skos:scopeNote "zum Beispiel Artikel, Aufsatz, Abhandlung"@de, "for example article, essay"@en .
+
+<textbook> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Lehrbuch"@de, "Textbook"@en .
 
 <video> a skos:Concept;
           skos:topConceptOf <scheme> ;
