@@ -14,7 +14,7 @@
         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
         skos:hasTopConcept <application>, <assessment>, <audio>, <case_study>, <course>, <data>, <diagram>,
             <drill_and_practice>, <educational_game>, <experiment>, <image>, <index>, <lesson_plan>, <map>, 
-            <portal>, <questionnaire>, <script>, <simulation>, <slide>, <text>, <video>, <web_page>,
+            <portal>, <questionnaire>, <script>, <simulation>, <slide>, <text>, <textbook>, <video>, <web_page>,
             <worksheet>, <other> .
 
 <application> a skos:Concept;
