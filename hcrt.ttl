@@ -94,6 +94,7 @@
 
 <simulation> a skos:Concept;
           skos:topConceptOf <scheme> ;
+          skos:relatedMatch <https://d-nb.info/gnd/4055072-2> ;
           skos:prefLabel "Simulation"@de, "Simulation"@en .
 
 <slide> a skos:Concept;
@@ -102,6 +103,7 @@
 
 <text> a skos:Concept;
           skos:topConceptOf <scheme> ;
+          skos:related <worksheet>, <slide>, <script>, <questionnaire>, <lesson_plan>, <assessment> ;
           skos:prefLabel "Textdokument"@de, "Text"@en ;
           skos:scopeNote "zum Beispiel Artikel, Aufsatz, Abhandlung"@de, "for example article, essay"@en .
 
@@ -111,14 +113,17 @@
 
 <video> a skos:Concept;
           skos:topConceptOf <scheme> ;
+          skos:closeMatch <https://d-nb.info/gnd/4078895-7> ;
           skos:prefLabel "Video"@de, "Video"@en .
 
 <web_page> a skos:Concept;
           skos:topConceptOf <scheme> ;
+          skos:related <portal> ;
           skos:prefLabel "Webseite"@de, "Web Page"@en .
 
 <worksheet> a skos:Concept;
           skos:topConceptOf <scheme> ;
+          skos:exactMatch <https://d-nb.info/gnd/4252086-1> ;
           skos:prefLabel "Arbeitsmaterial"@de, "work material"@en ;
           skos:scopeNote "zum Beispiel Arbeitsblatt"@de , "for example work sheet"@en.
 
