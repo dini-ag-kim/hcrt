@@ -12,10 +12,14 @@
         vann:preferredNamespaceUri "https://w3id.org/kim/hcrt/" ;
         vann:preferredNamespacePrefix "hcrt" ;
         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        skos:hasTopConcept <application>, <assessment>, <audio>, <case_study>, <course>, <data>, <diagram>,
+        skos:hasTopConcept <activity>, <application>, <assessment>, <audio>, <case_study>, <course>, <data>, <diagram>,
             <drill_and_practice>, <educational_game>, <experiment>, <image>, <index>, <lesson_plan>, <map>, 
             <portal>, <questionnaire>, <script>, <simulation>, <slide>, <text>, <textbook>, <video>, <web_page>,
             <worksheet>, <other> .
+
+<activity> a skos:Concept;
+           skos:topConceptOf <scheme> ;
+           skos:prefLabel "Aktivität"@de, "Activity"@en .
 
 <application> a skos:Concept;
            skos:topConceptOf <scheme> ;
@@ -77,6 +81,10 @@
 <map> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Karte"@de, "Map"@en .
+
+<portal> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Portal"@de, "Web Portal"@en .
 
 <questionnaire> a skos:Concept;
           skos:topConceptOf <scheme> ;
