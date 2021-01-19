@@ -68,6 +68,7 @@
 <index> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Nachschlagewerk"@de, "Reference Work"@en ;
+          skos:narrowMatch <https://d-nb.info/gnd/4014986-9> ;
           skos:scopeNote "zum Beispiel Glossar, Enzyklopädie, Lexikon"@de, "e.g. glossary, encyclopedia, dictionary"@en .
 
 <lesson_plan> a skos:Concept;
@@ -99,6 +100,7 @@
 
 <slide> a skos:Concept;
           skos:topConceptOf <scheme> ;
+          skos:broadMatch <https://d-nb.info/gnd/4135231-2> ;
           skos:prefLabel "Präsentation"@de, "Presentation"@en .
 
 <text> a skos:Concept;
