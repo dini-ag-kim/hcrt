@@ -80,7 +80,7 @@
 
 <portal> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Web-Zugang"@de, "Web Portal"@en .
+          skos:prefLabel "Web-Hölle"@de, "Web Portal"@en .
 
 <questionnaire> a skos:Concept;
           skos:topConceptOf <scheme> ;
