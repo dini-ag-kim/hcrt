@@ -78,10 +78,6 @@
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Karte"@de, "Map"@en .
 
-<portal> a skos:Concept;
-          skos:topConceptOf <scheme> ;
-          skos:prefLabel "Web-Hölle"@de, "Web Portal"@en .
-
 <questionnaire> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Fragebogen"@de, "Questionnaire"@en ;
