@@ -75,6 +75,14 @@
           skos:related <other> ;
           skos:scopeNote "zum Beispiel Glossar, Enzyklopädie, Lexikon"@de, "e.g. glossary, encyclopedia, dictionary"@en .
 
+<https://d-nb.info/gnd/4014986-9> skos:prefLabel "Enzyklopädie"@de .
+
+<https://d-nb.info/gnd/4129544-4> skos:prefLabel "Informationsmittel"@de .
+
+<https://d-nb.info/gnd/4041070-5> skos:prefLabel "Nachschlagewerk"@de .
+
+<https://d-nb.info/gnd/7545251-0> skos:prefLabel "Wikipedia"@de , "Wikipedia"@en .
+
 <lesson_plan> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Unterrichtsplanung"@de, "Lesson Plan"@en .
