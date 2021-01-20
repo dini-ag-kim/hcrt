@@ -69,6 +69,10 @@
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Nachschlagewerk"@de, "Reference Work"@en ;
           skos:narrowMatch <https://d-nb.info/gnd/4014986-9> ;
+          skos:broadMatch <https://d-nb.info/gnd/4129544-4>;
+          skos:exactMatch <https://d-nb.info/gnd/4041070-5>;
+          skos:relatedMatch <https://d-nb.info/gnd/7545251-0> ;
+          skos:related <other> ;
           skos:scopeNote "zum Beispiel Glossar, Enzyklopädie, Lexikon"@de, "e.g. glossary, encyclopedia, dictionary"@en .
 
 <lesson_plan> a skos:Concept;
