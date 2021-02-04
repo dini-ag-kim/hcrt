@@ -15,7 +15,7 @@
         skos:hasTopConcept <activity>, <application>, <assessment>, <audio>, <case_study>, <course>, <data>, <diagram>,
             <drill_and_practice>, <educational_game>, <experiment>, <image>, <index>, <lesson_plan>, <map>, 
             <portal>, <questionnaire>, <script>, <simulation>, <slide>, <text>, <textbook>, <video>, <web_page>,
-            <worksheet>, <other> .
+            <worksheet>, <other>, <zapperlott> .
 
 <activity> a skos:Concept;
            skos:topConceptOf <scheme> ;
