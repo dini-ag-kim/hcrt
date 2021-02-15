@@ -15,7 +15,7 @@
         skos:hasTopConcept <application>, <assessment>, <audio>, <case_study>, <course>, <data>, <diagram>,
             <drill_and_practice>, <educational_game>, <experiment>, <image>, <index>, <lesson_plan>, <map>, 
             <portal>, <questionnaire>, <script>, <simulation>, <slide>, <text>, <textbook>, <video>, <web_page>,
-            <worksheet>, <other>, <zapperlott> .
+            <worksheet>, <other>, <elearning> .
 
 <application> a skos:Concept;
            skos:topConceptOf <scheme> ;
@@ -126,6 +126,6 @@
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Sonstiges"@de, "Other"@en .
 
-<zapperlott> a skos:Concept;
+<elearning> a skos:Concept;
            skos:topConceptOf <scheme> ;
-           skos:prefLabel "Zapperlott"@de, "Zipper"@en .
+           skos:prefLabel "eLearning"@de, "eLearning"@en .
