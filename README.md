@@ -12,7 +12,7 @@ Veröffentlicht
 
 ## Entwicklung und Publikation
 
-In der Entwicklung des Vokabulars nutzen wir die [StöberSpecs](https://w3id.org/kim/stoeberspecs/)-Wekzeuge und -Prozesse. Das Vokabular wird in diesem [GitHub Repo](https://github.com/dini-ag-kim/hcrt) in der Datei [hcrt.ttl](https://github.com/dini-ag-kim/hcrt/blob/master/hcrt.ttl) versioniert und gepflegt. Als Beschreibungssprache wird das [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/) in [Turtle](https://www.w3.org/TR/turtle/)-Syntax verwendet. Die offizielle Publkikation erfolgt unter der URI [https://w3id.org/kim/hcrt/scheme](https://w3id.org/kim/hcrt/scheme) mit [SkoHub-Vocabs](https://github.com/hbz/skohub-vocabs), einer grafischen Präsentation des Vokabulars mit weitergehenden Möglichkeiten wie einer Suchfunktion. 
+In der Entwicklung des Vokabulars nutzen wir die [StöberSpecs](https://w3id.org/kim/stoeberspecs/)-Wekzeuge und -Prozesse. Das Vokabular wird in diesem [GitHub Repo](https://github.com/dini-ag-kim/hcrt) in der Datei [hcrt.ttl](https://github.com/dini-ag-kim/hcrt/blob/master/hcrt.ttl) versioniert und gepflegt. Als Beschreibungssprache wird das [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/) in [Turtle](https://www.w3.org/TR/turtle/)-Syntax verwendet. Die offizielle Publikation erfolgt unter der URI [https://w3id.org/kim/hcrt/scheme](https://w3id.org/kim/hcrt/scheme) mit [SkoHub-Vocabs](https://github.com/hbz/skohub-vocabs), einer grafischen Präsentation des Vokabulars mit weitergehenden Möglichkeiten wie einer Suchfunktion.
 
 ## Mitarbeit und Kontakt
 
