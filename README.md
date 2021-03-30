@@ -2,7 +2,7 @@
 
 Die Hochschulcampus Ressourcentypen (HCRT) sind ein kontrolliertes Vokabular für Typen von Lernressourcen, gepflegt von der [OER-Metadatengruppe der DINI-AG KIM](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe). Das Vokabular ist Bestandteil der Spezifikationen [LOM for Higher Education OER Repositories](https://w3id.org/kim/hs-oer-lom-profil/latest/) und [LRMI-Profil (Entwurf)](https://github.com/dini-ag-kim/lrmi-profile).
 
-## Maintainer\*innen
+## Maintainer
 
 [Michael Menzel](https://github.com/mic-men) und [Adrian Pohl](https://github.com/acka47) 
 
