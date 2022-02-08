@@ -24,11 +24,13 @@
 <assessment> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Lernkontrolle"@de, "Assessment"@en ;
+          skos:altLabel "Assessment"@de ;
           skos:scopeNote "unter anderem (Selbst-)Tests"@de .
 
 <audio> a skos:Concept;
            skos:topConceptOf <scheme> ;
-           skos:prefLabel "Tonaufnahme"@de, "Audio Recording"@en .
+           skos:prefLabel "Audio"@de, "Audio Recording"@en ;
+           skos:altLabel "Tonaufnahme"@de .
 
 <case_study> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -63,7 +65,8 @@
 <image> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Abbildung"@de, "Image"@en ;
-          skos:scopeNote "Fotos und sonstige Bilder"@de, "photos and other images"@en .
+          skos:altLabel "Bild"@de ;
+          skos:scopeNote "Fotos, Grafiken und sonstige Bilder"@de, "photos, graphics, and other images"@en .
 
 <index> a skos:Concept;
           skos:topConceptOf <scheme> ;
