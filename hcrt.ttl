@@ -24,7 +24,7 @@
 <assessment> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Lernkontrolle"@de, "Assessment"@en, "Оцінювання"@uk ;
-          skos:altLabel "Assessment"@de, "Оцінювання"@uk ;
+          skos:altLabel "Assessment"@de ;
           skos:scopeNote "unter anderem (Selbst-)Tests"@de .
 
 <audio> a skos:Concept;
