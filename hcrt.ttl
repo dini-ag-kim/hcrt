@@ -75,6 +75,10 @@
           skos:related <other> ;
           skos:scopeNote "zum Beispiel Glossar, Enzyklopädie, Lexikon"@de, "e.g. glossary, encyclopedia, dictionary"@en .
 
+<test_collection> a skos:Collection ;
+          skos:prefLabel "Test-SKOS-Sammlung A"@de, "A Test SKOS collection"@en ;
+          skos:member <application>, <assessment>, <audio> .
+
 <https://d-nb.info/gnd/4014986-9> skos:prefLabel "Enzyklopädie"@de .
 
 <https://d-nb.info/gnd/4129544-4> skos:prefLabel "Informationsmittel"@de .
