@@ -19,7 +19,7 @@
 
 <application> a skos:Concept;
            skos:topConceptOf <scheme> ;
-           skos:prefLabel "Softwareanwendung"@de, "Software Application"@en .
+           skos:prefLabel "Softwareanwendung"@de .
 
 <assessment> a skos:Concept;
           skos:topConceptOf <scheme> ;
