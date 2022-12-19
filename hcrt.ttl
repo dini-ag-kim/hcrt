@@ -13,25 +13,21 @@
         vann:preferredNamespacePrefix "hcrt" ;
         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
         skos:hasTopConcept <application>, <assessment>, <audio>, <case_study>, <course>, <data>, <diagram>,
-            <drill_and_practice>, <educational_game>, <experiment>, <image>, <index>, <lesson_plan>, <map>, 
+            <drill_and_practice>, <educational_game>, <experiment>, <lesson_plan>, <map>,
             <portal>, <questionnaire>, <script>, <simulation>, <slide>, <text>, <textbook>, <video>, <web_page>,
             <worksheet>, <other> .
 
 <application> a skos:Concept;
-           skos:topConceptOf <scheme> ;
            skos:prefLabel "Softwareanwendung"@de .
 
 <assessment> a skos:Concept;
-          skos:topConceptOf <scheme> ;
           skos:prefLabel "Lernkontrolle"@de, "Assessment"@en ;
           skos:scopeNote "unter anderem (Selbst-)Tests"@de, "amongst others (self) tests"@en .
 
 <audio> a skos:Concept;
-           skos:topConceptOf <scheme> ;
            skos:prefLabel "Tonaufnahme"@de, "Audio Recording"@en .
 
 <case_study> a skos:Concept;
-          skos:topConceptOf <scheme> ;
           skos:prefLabel "Fallstudie"@de, "Case Study"@en .
 
 <course> a skos:Concept;
