@@ -6,10 +6,9 @@
 <> a skos:ConceptScheme ;
   skos:prefLabel "Fachsystematikausschnitt Dr für Sucht"@de, "Specialist system extract Dr for addiction"@en ;
   dct:title "Fachsystematikausschnitt Dr für Sucht"@de, "Specialist system extract Dr for addiction"@en ;
-  dct:description "Fachsystematikausschnitt Dr für Sucht der Katholische Hochschule Nordrhein-Westfalen, Standort Köln"@de, "Specialist system extract Dr for addiction the Catholic University of Applied Sciences North Rhine-Westphalia, Cologne site"@en ;
+  dct:description "Fachsystematikausschnitt Dr für Sucht der Katholische Hochschule Nordrhein-Westfalen, Standort Köln"@de, "Specialist system extract Dr for addiction the Catholic University of Applied Sciences North Rhine-Westphalia, Cologne site" ;
   dct:issued "2022-01-01" ;
-  dct:creator "Katholische Hochschule Nordrhein-Westfalen"@de, "Catholic University of Applied Sciences North Rhine-Westphalia"@en ;
-  skos:hasTopConcept <Dr/Sucht> .
+  dct:creator "Katholische Hochschule Nordrhein-Westfalen"@de, "atholic University of Applied Sciences North Rhine-Westphalia"@en .
   
 <Dr/Sucht> a skos:Concept ;
   skos:prefLabel "Sucht"@de, "Addiction"@en ;
