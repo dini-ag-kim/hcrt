@@ -1,21 +1,21 @@
-: :# .
-@prefix dct: :http://purl.org/dc/terms/.
-@prefix skos: :http://www.w3.org/2004/02/skos/core#.
-@prefix vann: :http://purl.org/vocab/vann/ .
+@prefix : <#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 
 : a skos:ConceptScheme;
         dct:title "Hochschulcampus Ressourcentypen"@de, "Higher Education Resource Types"@en ;
         dct:description "Eine Wertelliste für Typen von Lernressourcen (Learning Resource Type), entstanden im Kontext des Metadatenschemas \"LOM for Higher Education OER Repositories\" (https://w3id.org/dini-ag-kim/hs-oer-lom-profil/latest/)."@de, "a value list for learning resources types, developed in the context of a metadata schema LOM for Higher Education OER Repositories\" (https://w3id.org/dini-ag-kim/hs-oer-lom-profil/latest/)."@en ;
-        dct:publisher :https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f ;
+        dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
         dct:issued "2020-02-07" ;
         vann:preferredNamespaceUri "https://w3id.org/kim/hcrt/" ;
         vann:preferredNamespacePrefix "hcrt" ;
-        dct:license :http://creativecommons.org/publicdomain/zero/1.0/ ;
-        skos:hasTopConcept :application>, <assessment>, <audio>, <case_study>, <course>, <data>, <diagram,
-            :drill_and_practice>, <educational_game>, <experiment>, <lesson_plan>, <map,
-            :portal>, <questionnaire>, <script>, <simulation>, <slide>, <text>, <textbook>, <video>, <web_page,
-            :worksheet>, <other .
+        dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+        skos:hasTopConcept :application, :assessment, :audio, :case_study, :course, :data, :diagram,
+            :drill_and_practice, :educational_game, :experiment, :lesson_plan, :map,
+            :portal, :questionnaire, :script, :simulation, :slide, :text, :textbook, :video, :web_page,
+            :worksheet, :other .
 
 :application a skos:Concept;
            skos:prefLabel "Softwareanwendung"@de .
@@ -64,24 +64,24 @@
 :index a skos:Concept;
           skos:topConceptOf : ;
           skos:prefLabel "Nachschlagewerk"@de, "Reference Work"@en ;
-          skos:narrowMatch :https://d-nb.info/gnd/4014986-9 ;
-          skos:broadMatch :https://d-nb.info/gnd/4129544-4;
-          skos:exactMatch :https://d-nb.info/gnd/4041070-5;
-          skos:relatedMatch :https://d-nb.info/gnd/7545251-0 ;
+          skos:narrowMatch <https://d-nb.info/gnd/4014986-9> ;
+          skos:broadMatch <https://d-nb.info/gnd/4129544-4>;
+          skos:exactMatch <https://d-nb.info/gnd/4041070-5>;
+          skos:relatedMatch <https://d-nb.info/gnd/7545251-0> ;
           skos:related :other ;
           skos:scopeNote "zum Beispiel Glossar, Enzyklopädie, Lexikon"@de, "e.g. glossary, encyclopedia, dictionary"@en .
 
 :test_collection a skos:Collection ;
           skos:prefLabel "Test-SKOS-Sammlung A"@de, "A Test SKOS collection"@en ;
-          skos:member :application>, <assessment>, <audio .
+          skos:member :application, :assessment, :audio .
 
-:https://d-nb.info/gnd/4014986-9 skos:prefLabel "Enzyklopädie"@de .
+<https://d-nb.info/gnd/4014986-9> skos:prefLabel "Enzyklopädie"@de .
 
-:https://d-nb.info/gnd/4129544-4 skos:prefLabel "Informationsmittel"@de .
+<https://d-nb.info/gnd/4129544-4> skos:prefLabel "Informationsmittel"@de .
 
-:https://d-nb.info/gnd/4041070-5 skos:prefLabel "Nachschlagewerk"@de .
+<https://d-nb.info/gnd/4041070-5> skos:prefLabel "Nachschlagewerk"@de .
 
-:https://d-nb.info/gnd/7545251-0 skos:prefLabel "Wikipedia"@de , "Wikipedia"@en .
+<https://d-nb.info/gnd/7545251-0> skos:prefLabel "Wikipedia"@de , "Wikipedia"@en .
 
 :lesson_plan a skos:Concept;
           skos:topConceptOf : ;
@@ -107,17 +107,17 @@
 
 :simulation a skos:Concept;
           skos:topConceptOf : ;
-          skos:relatedMatch :https://d-nb.info/gnd/4055072-2 ;
+          skos:relatedMatch <https://d-nb.info/gnd/4055072-2> ;
           skos:prefLabel "Simulation"@de, "Simulation"@en .
 
 :slide a skos:Concept;
           skos:topConceptOf : ;
-          skos:broadMatch :https://d-nb.info/gnd/4135231-2 ;
+          skos:broadMatch <https://d-nb.info/gnd/4135231-2> ;
           skos:prefLabel "Präsentation"@de, "Presentation"@en .
 
 :text a skos:Concept;
           skos:topConceptOf : ;
-          skos:related :worksheet>, <slide>, <script>, <questionnaire>, <lesson_plan>, <assessment ;
+          skos:related :worksheet, :slide, :script, :questionnaire, :lesson_plan, :assessment ;
           skos:prefLabel "Textdokument"@de, "Text"@en ;
           skos:scopeNote "zum Beispiel Artikel, Aufsatz, Abhandlung"@de, "for example article, essay"@en .
 
@@ -127,7 +127,7 @@
 
 :video a skos:Concept;
           skos:topConceptOf : ;
-          skos:closeMatch :https://d-nb.info/gnd/4078895-7 ;
+          skos:closeMatch <https://d-nb.info/gnd/4078895-7> ;
           skos:prefLabel "Video"@de, "Video"@en .
 
 :web_page a skos:Concept;
@@ -137,7 +137,7 @@
 
 :worksheet a skos:Concept;
           skos:topConceptOf : ;
-          skos:exactMatch :https://d-nb.info/gnd/4252086-1 ;
+          skos:exactMatch <https://d-nb.info/gnd/4252086-1> ;
           skos:prefLabel "Arbeitsmaterial"@de, "work material"@en ;
           skos:scopeNote "zum Beispiel Arbeitsblatt"@de , "for example work sheet"@en.
 
