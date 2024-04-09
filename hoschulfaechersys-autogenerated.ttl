@@ -1884,8 +1884,7 @@
     skos:broader <n1> ;
     skos:inScheme <scheme> ;
     skos:notation "10" ;
-    skos:prefLabel "Anglistik, Amerikanistik"@de,
-        "Außerhalb der Studienbereichsgliederung/Sonstige Fächer"@de ;
+    skos:prefLabel "Anglistik, Amerikanistik"@de ;
     skos:topConceptOf <scheme> .
 
 <n36> a skos:Concept ;
