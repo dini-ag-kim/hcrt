@@ -42,7 +42,10 @@
 :diagram a skos:Concept;
           skos:topConceptOf : ;
           skos:prefLabel "Diagramm"@de, "Diagram"@en ;
-          skos:altLabel "Grafik"@de, "chart"@en, "graph"@en .
+          skos:altLabel "Grafik"@de, "chart"@en, "graph"@en ;
+          skos:scopeNote "Balken"@de, "Torten"@de, "Kurven"@de ;
+          skos:editorialNote "Adrian hat am 2024-04-17 mehrere scopeNotes ergänzt."@de, "Wirklich?"@de ;
+          skos:changeNote "Adrian hat am 2024-04-17 mehrere scopeNotes ergänzt."@de , "Das steht doch schon in der editorialNote!"@de , "Achso, sorry."@de .
 
 :drill_and_practice a skos:Concept;
           skos:topConceptOf : ;
@@ -85,7 +88,8 @@
 
 :lesson_plan a skos:Concept;
           skos:topConceptOf : ;
-          skos:prefLabel "Unterrichtsplanung"@de, "Lesson Plan"@en .
+          skos:prefLabel "Unterrichtsplanung"@de, "Lesson Plan"@en ;
+          skos:note "Ich bin eine Testnotiz"@de, "Ich auch"@de, "I am a test note"@en,  "me too"@en.
 
 :map a skos:Concept;
           skos:topConceptOf : ;
@@ -108,7 +112,8 @@
 :simulation a skos:Concept;
           skos:topConceptOf : ;
           skos:relatedMatch <https://d-nb.info/gnd/4055072-2> ;
-          skos:prefLabel "Simulation"@de, "Simulation"@en .
+          skos:prefLabel "Simulation"@de, "Simulation"@en ;
+          skos:historyNote "Kam irgendwann später dazu"@de,  "Ehrlich? Wann?"@de, "Schau doch in die commit-Historie"@de .
 
 :slide a skos:Concept;
           skos:topConceptOf : ;
