@@ -9,7 +9,7 @@
 :scheme
     a skos:ConceptScheme ;
     vann:preferredNamespacePrefix "nwbib" ;
-    dct:title "Sachsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Classification scheme of the North Rhine-Westphalian bibliography"@en ;
+    skos:prefLabel "Sachsystematik der Nordrhein-Westfälischen Bibliographie"@de , "Classification scheme of the North Rhine-Westphalian bibliography"@en ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dct:description "This classification was created for use in the North Rhine-Westphalian bibliography. The initial transformation to SKOS was carried out by Felix Ostrowski for the hbz."@en ;
     dct:issued "2014-01-28" ;
