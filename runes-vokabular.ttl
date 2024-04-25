@@ -36,7 +36,7 @@
           skos:prefLabel "Geodreieck"@de, "Triangle"@en .
 
 <permanentmarker> a skos:Concept;
-          skos:topConceptOf <maeppchen> ;
+          skos:broader <maeppchen> ;
           skos:inScheme <> ;
           skos:prefLabel "Permanent-Marker"@de, "permanent marker"@en .
 
