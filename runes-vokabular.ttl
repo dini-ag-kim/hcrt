@@ -27,7 +27,7 @@
            skos:prefLabel "Geometrie-Set"@de, "Geometry set"@en .
 
 <taschenrechner> a skos:Concept;
-          skos:topConceptOf <scheme> ;
+          skos:topConceptOf <> ;
           skos:prefLabel "Taschenrechner"@de, "calculator"@en .
 
 <geodreieck> a skos:Concept;
