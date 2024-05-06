@@ -95,11 +95,6 @@
           skos:prefLabel "Skript"@de, "Script"@en, "Script"@nl, "Запис"@uk, "Script"@fr ;
           skos:scopeNote "zum Beispiel Vorlesungsskript"@de, "for example lecture notes"@en, "bijvoorbeeld collegedictaten"@nl, "наприклад конспект лекцій"@uk, "par exemple, script de cours"@fr .
 
-<script> a skos:Concept;
-          skos:topConceptOf <scheme> ;
-          skos:prefLabel "Skript"@de, "Script"@en, "Script"@nl, "Запис"@uk, "Skripta"@cs, "Script"@fr;
-          skos:scopeNote "zum Beispiel Vorlesungsskript"@de, "for example lecture notes"@en, "bijvoorbeeld collegedictaten"@nl, "наприклад конспект лекцій"@uk, "např. poznámky k přednášce"@cs .
-
 <sheet_music> a skos:Concept ;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Musiknoten"@de, "Sheet Music"@en, "Bladmuziek"@nl, "Ноти"@uk, "Noty"@cs, "Partition de musique"@fr .
