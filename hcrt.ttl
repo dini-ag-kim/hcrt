@@ -5,7 +5,7 @@
 
 
 <scheme> a skos:ConceptScheme;
-        dct:title "Hochschulcampus Ressourcentypen"@de, "Higher Education Resource Types"@en, "Brontypen voor het hoger onderwijs"@nl, "Типи ресурсів вищої освіти"@uk ;
+        dct:title "Hochschulcampus Ressourcentypen"@de, "Higher Education Resource Types"@en, "Brontypen voor het hoger onderwijs"@nl, "Типи ресурсів вищої освіти"@uk, "Typy zdrojů vyššího vzdělání"@cs ;
         dct:description "Eine Wertelliste für Typen von Lernressourcen (Learning Resource Type), entstanden im Kontext des Metadatenschemas \"LOM for Higher Education OER Repositories\" (https://w3id.org/dini-ag-kim/hs-oer-lom-profil/latest/)."@de ;
         dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
         dct:issued "2020-02-07" ;
@@ -19,26 +19,26 @@
 
 <application> a skos:Concept;
            skos:topConceptOf <scheme> ;
-           skos:prefLabel "Softwareanwendung"@de, "Software Application"@en, "Computerprogramma"@nl, "Програмне забезпечення"@uk, "Application logicielle"@fr .
+           skos:prefLabel "Softwareanwendung"@de, "Software Application"@en, "Computerprogramma"@nl, "Програмне забезпечення"@uk, "Počítačový program"@cs .
 
 <assessment> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Lernkontrolle"@de, "Assessment"@en, "Evaluatie"@nl, "Оцінювання"@uk, "Contrôle d’apprentissage"@fr ;
+          skos:prefLabel "Lernkontrolle"@de, "Assessment"@en, "Evaluatie"@nl, "Оцінювання"@uk, "Hodnocení"@cs, "Contrôle d’apprentissage"@fr ;
           skos:altLabel "Assessment"@de ;
           skos:scopeNote "unter anderem (Selbst-)Tests"@de, "entre autres (auto)tests"@fr .
 
 <audio> a skos:Concept;
            skos:topConceptOf <scheme> ;
-           skos:prefLabel "Audio"@de, "Audio Recording"@en, "Audio"@nl, "Аудіозапис"@uk, "Audio"@fr ;
+           skos:prefLabel "Audio"@de, "Audio Recording"@en, "Audio"@nl, "Аудіозапис"@uk, "Zvukový záznam"@cs,"Audio "@fr ;
            skos:altLabel "Tonaufnahme"@de, "Звукозапис"@uk .
 
 <case_study> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Fallstudie"@de, "Case Study"@en, "Casestudy"@nl, "Приклад"@uk, "Étude de cas"@fr .
+          skos:prefLabel "Fallstudie"@de, "Case Study"@en, "Casestudy"@nl, "Приклад"@uk, "Případová studie"@cs, "Étude de cas"@fr .
 
 <course> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Kurs"@de, "Course"@en, "Cursus"@nl, "Курс"@uk, "Cours"@fr .
+          skos:prefLabel "Kurs"@de, "Course"@en, "Cursus"@nl, "Курс"@uk, "Kurz"@cs, "Cours"@fr .
 
 <data> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -47,24 +47,24 @@
 
 <diagram> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Diagramm"@de, "Diagram"@en, "Diagram"@nl, "Діаграма"@uk, "Diagramme"@fr ;
+          skos:prefLabel "Diagramm"@de, "Diagram"@en, "Diagram"@nl, "Діаграма"@uk, "Diagram"@cs, "Diagramme"@fr ;
           skos:altLabel "Grafik"@de, "Графіка"@uk .
 
 <drill_and_practice> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Übung"@de, "Drill and Practice"@en, "Oefening"@nl, "Практика"@uk, "Exercice"@fr .
+          skos:prefLabel "Übung"@de, "Drill and Practice"@en, "Oefening"@nl, "Практика"@uk, "Cvičení"@cs, "Exercice"@fr .
 
 <educational_game> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Lernspiel"@de, "Game"@en, "Educatief Spel"@nl, "Навчальна гра"@uk, "Jeu éducatif"@fr .
+          skos:prefLabel "Lernspiel"@de, "Game"@en, "Educatief Spel"@nl, "Навчальна гра"@uk, "Hra"@cs, "Jeu éducatif"@fr .
 
 <experiment> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Experiment"@de, "Experiment"@en, "Experiment"@nl, "Експеримент"@uk, "Expérience"@fr .
+          skos:prefLabel "Experiment"@de, "Experiment"@en, "Experiment"@nl, "Експеримент"@uk, "Experiment"@cs, "Experiment"@cs .
 
 <image> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Abbildung"@de, "Image"@en, "Afbeelding"@nl, "Ілюстрація"@uk, "Illustration"@fr ;
+          skos:prefLabel "Abbildung"@de, "Image"@en, "Afbeelding"@nl, "Ілюстрація"@uk, "Obrázek"@cs, "Illustration"@fr ;
           skos:altLabel "Bild"@de, "Зображення"@uk ;
           skos:scopeNote "Fotos, Grafiken und sonstige Bilder"@de, "photos, graphics, and other images"@en, "foto's, illustraties en andere afbeeldingen"@nl, "Фотографії, графіки та інші зображення"@uk, "Photos, graphiques et autres images"@fr .
 
@@ -75,15 +75,15 @@
 
 <lesson_plan> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Unterrichtsplanung"@de, "Lesson Plan"@en, "Lesplan"@nl, "План уроку"@uk, "Plan de cours"@fr .
+          skos:prefLabel "Unterrichtsplanung"@de, "Lesson Plan"@en, "Lesplan"@nl, "План уроку"@uk, "Plán lekce"@cs, "Plan de cours"@fr .
 
 <map> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Karte"@de, "Map"@en, "Kaart"@nl, "Мапа"@uk, "Carte"@fr .
+          skos:prefLabel "Karte"@de, "Map"@en, "Kaart"@nl, "Мапа"@uk, "Mapa"@cs, "Carte"@fr .
 
 <portal> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Portal"@de, "Web Portal"@en, "Internetportaal"@nl, "Портал"@uk, "Portail"@fr .
+          skos:prefLabel "Portal"@de, "Web Portal"@en, "Internetportaal"@nl, "Портал"@uk, "Webový portál"@cs, "Portail"@fr .
 
 <questionnaire> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -95,17 +95,22 @@
           skos:prefLabel "Skript"@de, "Script"@en, "Script"@nl, "Запис"@uk, "Script"@fr ;
           skos:scopeNote "zum Beispiel Vorlesungsskript"@de, "for example lecture notes"@en, "bijvoorbeeld collegedictaten"@nl, "наприклад конспект лекцій"@uk, "par exemple, script de cours"@fr .
 
+<script> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Skript"@de, "Script"@en, "Script"@nl, "Запис"@uk, "Skripta"@cs, "Script"@fr;
+          skos:scopeNote "zum Beispiel Vorlesungsskript"@de, "for example lecture notes"@en, "bijvoorbeeld collegedictaten"@nl, "наприклад конспект лекцій"@uk, "např. poznámky k přednášce"@cs .
+
 <sheet_music> a skos:Concept ;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Musiknoten"@de, "Sheet Music"@en, "Bladmuziek"@nl, "Ноти"@uk, "Partition de musique"@fr .
+          skos:prefLabel "Musiknoten"@de, "Sheet Music"@en, "Bladmuziek"@nl, "Ноти"@uk, "Noty"@cs, "Partition de musique"@fr .
 
 <simulation> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Simulation"@de, "Simulation"@en, "Simulatie"@nl, "Симуляція"@uk, "Simulation"@fr .
+          skos:prefLabel "Simulation"@de, "Simulation"@en, "Simulatie"@nl, "Симуляція"@uk, "Simulace"@cs, "Simulation"@fr .
 
 <slide> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Präsentation"@de, "Presentation"@en, "Presentatie"@nl, "Презентація"@uk, "Présentation"@fr .
+          skos:prefLabel "Präsentation"@de, "Presentation"@en, "Presentatie"@nl, "Презентація"@uk, "Prezentace"@cs, "Présentation"@fr .
 
 <text> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -114,15 +119,15 @@
 
 <textbook> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Lehrbuch"@de, "Textbook"@en, "Studieboek"@nl, "Підручник"@uk, "Manuel"@fr .
+          skos:prefLabel "Lehrbuch"@de, "Textbook"@en, "Studieboek"@nl, "Підручник"@uk, "Učebnice"@cs, "Manuel"@fr .
 
 <video> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Video"@de, "Video"@en, "Video"@nl, "Відео"@uk, "Vidéo"@fr .
+          skos:prefLabel "Video"@de, "Video"@en, "Video"@nl, "Відео"@uk, "Video"@cs, "Vidéo"@fr .
 
 <web_page> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Webseite"@de, "Web Page"@en, "Webpagina"@nl, "Веб-сайт"@uk, "Site web"@fr .
+          skos:prefLabel "Webseite"@de, "Web Page"@en, "Webpagina"@nl, "Веб-сайт"@uk, "Webová stránka"@cs, "Site web"@fr .
 
 <worksheet> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -131,4 +136,4 @@
 
 <other> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Sonstiges"@de, "Other"@en, "Overigen"@nl, "Різне"@uk, "Divers"@fr .
+          skos:prefLabel "Sonstiges"@de, "Other"@en, "Overigen"@nl, "Різне"@uk, "Jiné"@cs, "Divers"@fr .
