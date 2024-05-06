@@ -19,7 +19,7 @@
 
 <application> a skos:Concept;
            skos:topConceptOf <scheme> ;
-           skos:prefLabel "Softwareanwendung"@de, "Software Application"@en, "Computerprogramma"@nl, "Програмне забезпечення"@uk, "Počítačový program"@cs .
+           skos:prefLabel "Softwareanwendung"@de, "Software Application"@en, "Computerprogramma"@nl, "Програмне забезпечення"@uk, "Počítačový program"@cs, "Application logicielle"@fr .
 
 <assessment> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -60,7 +60,7 @@
 
 <experiment> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Experiment"@de, "Experiment"@en, "Experiment"@nl, "Експеримент"@uk, "Experiment"@cs, "Experiment"@cs .
+          skos:prefLabel "Experiment"@de, "Experiment"@en, "Experiment"@nl, "Експеримент"@uk, "Experiment"@cs, "Experiment"@cs, "Expérience"@fr .
 
 <image> a skos:Concept;
           skos:topConceptOf <scheme> ;
