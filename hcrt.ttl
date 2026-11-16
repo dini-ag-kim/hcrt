@@ -12,7 +12,7 @@
         vann:preferredNamespaceUri "https://w3id.org/kim/hcrt/" ;
         vann:preferredNamespacePrefix "hcrt" ;
         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-        skos:hasTopConcept <application>, <assessment>, <audio>, <case_study>, <course>, <data>, <diagram>,
+        skos:hasTopConcept <application>, <assessment>, <audio>, <case_study>, <collection>, <course>, <data>, <diagram>,
             <drill_and_practice>, <educational_game>, <experiment>, <image>, <index>, <lesson_plan>, <map>, 
             <portal>, <questionnaire>, <script>, <sheet_music>, <simulation>, <slide>, <text>, <textbook>, <video>, <web_page>,
             <worksheet>, <other> .
@@ -35,6 +35,10 @@
 <case_study> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Fallstudie"@de, "Case Study"@en, "Casestudy"@nl, "Приклад"@uk, "Případová studie"@cs, "Étude de cas"@fr, "Fallstudie"@sv, "Caso de estudio"@es, "Prípadová štúdia"@sk, "Μελέτη Περίπτωσης"@el, "Caso Studio"@it, "Tapaustutkimus"@fi .
+
+<collection> a skos:Concept;
+          skos:topConceptOf <scheme> ;
+          skos:prefLabel "Sammlung"@de, "Collection"@en, "Collectie"@nl, "Колекція"@uk, "Sbírka"@cs, "Collection"@fr, "Samling"@sv, "Colección"@es, "Zbierka"@sk, "Συλλογή"@el, "Collezione"@it, "Kokoelma"@fi .
 
 <course> a skos:Concept;
           skos:topConceptOf <scheme> ;
